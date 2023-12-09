@@ -1,0 +1,94 @@
+.social-wrapper{
+    position: relative;
+    padding: 0.3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-maincir {
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+
+.social-maincir>* {
+    position: absolute;
+}
+
+.social-maincir>:nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+
+.social-maincir>:nth-child(2) {
+    left: -3rem;
+    top: 5rem;
+}
+
+.social-maincir>:nth-child(3) {
+    left: 6rem;
+    top: 5rem;
+}
+
+.social-maincir>:nth-child(4) {
+    left: 15rem;
+    top: 5rem;
+}
+
+.social-circle {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center ;
+    border: 5px solid #ebebeb;
+    align-items: center;
+    background: white;
+    box-shadow: var(--smboxShadow);
+}
+
+.social-circle img {
+    display: flex;
+    transform: scale(0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.social-backcircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.blueCircle {
+    background:#1949B8;
+    left: 11rem;
+    top: 8rem;
+}
+
+.yellowCircle{
+    background: #F5C32C;
+    left: -5rem;
+    top: -4rem;
+}
+
+@media screen and (max-width:480px) {
+    .social-wrapper{
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        transform: scale(0.6);
+        height: 40vh;
+        margin-top: 1rem;
+    }
+}

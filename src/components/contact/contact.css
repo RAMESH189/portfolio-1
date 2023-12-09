@@ -1,0 +1,84 @@
+.contact-wrapper{
+    display: flex;
+    height: 80vh;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    position: sticky;
+}
+
+.contact-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left>:nth-child(1) {
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contact-left>:nth-child(2) {
+    color: var(--orange);
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.contact-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.contact-right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact-right .user {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.5em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    font-size: 16px;
+}
+.contact-right>form>textarea{
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 20rem;
+    border: 2px solid var(--orange);
+    height: 5rem !important;
+}
+
+.contact-button{
+    width: 6rem;
+}
+
+@media screen and (max-width:480px) {
+    .contact-wrapper {
+        padding: 0;
+        flex-direction: column;
+    }
+    .contact-left>:nth-child(1){
+        font-size: 3rem;
+    }
+
+    .contact-left>:nth-child(2) {
+        font-size: 2rem;
+    }
+    .contact-right .user {
+        width: 16rem;
+        padding-left: 0.3rem;
+    }
+    .contact-right>form>textarea {
+        width: 16rem;
+        padding-left: 0.3rem;
+    }
+}
