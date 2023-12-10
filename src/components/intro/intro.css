@@ -126,3 +126,27 @@ z-index: 1;
         display: none;
     }
 }
+
+@media screen and (max-width:1030px) {
+    .intro-right>img:nth-child(3) {
+        transform: rotate(-10deg) scale(0.6);
+        top: -65%;
+        left: -50%;
+    }
+
+    .intro-right:nth-child(2) {
+        transform: scale(0.58);
+    }
+
+    .intro-right:nth-child(1) {
+        transform: scale(0.58);
+    }
+        
+    .motionDiv {
+        display: none;
+    }
+
+    .intro-wrapper {
+        height: 60vh;
+    }
+}

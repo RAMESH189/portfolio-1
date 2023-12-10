@@ -56,6 +56,28 @@
 }
 
 
+
+
+@media screen and (max-width:1030px) {
+  .skills-wrapper{
+    flex-direction: column;
+    gap: 5rem;
+    height: 80vh;
+  }
+
+  .skills-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17rem;
+  }
+
+    .skills-right>* {
+      position: static;
+      margin-bottom: 3rem;
+    }
+}
+
+
 @media screen and (max-width:480px) {
   .skills-wrapper{
     padding: 0;

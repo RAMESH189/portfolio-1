@@ -46,3 +46,18 @@
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25 ));
     border-radius: 20px;
 }
+
+@media screen and (max-width:1030px) {
+    .pro-wrapper-slider .swiper-slide {
+        width: 20rem;
+    }
+
+    .pro-wrapper img {
+        width: 20rem;
+    }
+
+    .pro-wrapper {
+        height: 60vh;
+    }
+
+}

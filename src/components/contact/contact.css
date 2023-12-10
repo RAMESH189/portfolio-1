@@ -61,10 +61,28 @@
     width: 6rem;
 }
 
+@media screen and (max-width:1030px) {
+    .contact-wrapper {
+        height: 60vh;
+        margin-bottom: 1rem;
+    }
+    .contact-left>:nth-child(2) {
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width:480px) {
     .contact-wrapper {
         padding: 0;
         flex-direction: column;
+        margin-bottom: 5rem;
+        height: 70vh;
+        gap: 3rem;
+    }
+    .contact-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .contact-left>:nth-child(1){
         font-size: 3rem;

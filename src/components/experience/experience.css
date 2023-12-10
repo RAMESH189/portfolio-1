@@ -53,6 +53,13 @@
     color: var(--orange);
 }
 
+
+@media screen and (max-width:1030px) {
+    .exp-wrapper {
+        margin-bottom: 0rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .exp-wrapper {
         transform: scale(0.8);
