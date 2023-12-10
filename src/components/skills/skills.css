@@ -77,13 +77,12 @@
     }
 }
 
-
 @media screen and (max-width:480px) {
   .skills-wrapper{
     padding: 0;
     flex-direction: column;
     margin-top: 5rem;
-    margin-bottom: 38rem;
+    margin-bottom: 45rem;
     gap: 5rem;
      
   }

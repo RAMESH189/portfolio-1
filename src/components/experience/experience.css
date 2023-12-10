@@ -56,15 +56,18 @@
 
 @media screen and (max-width:1030px) {
     .exp-wrapper {
-        margin-bottom: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     .exp-wrapper {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
         transform: scale(0.8);
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 50vh;
+        height: 60vh;
     }
 }
